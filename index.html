@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+         <div class="col-md-5" id="form">
+            <h2>FILL YOUR DETAILS</h2>
+                  <br>
+                   <input type="text" id="name" placeholder="Name" required><br> <br>
+                    <input type="email" id="email" placeholder="Email"/><br> <br>
+                    <input type="text" id="about" placeholder="About"/><br> <br>
+                    <input type="text" id="address"  placeholder="Address"/><br> <br>
+                    <input type="text" id="phoneno" placeholder="Phone No."/><br> <br>
+                    <input type="text" id="clg" name="clg" placeholder="College Name"/><br><br>
+                    <button  onclick="results()" id="Submit">Submit</button> <br>
+               </div>
+               <div class="offset-md-2"></div>
+               <div class="col-md-5" id="profilecard">
+                   <h2 class="profile">PROFILE CARD</h2> <br>
+         Name :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span id="fname"></span> <br> <br>
+         Email :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span id="femail"></span> <br> <br>
+         About : &nbsp; &nbsp; &nbsp; &nbsp;<span id="fabout"></span> <br> <br>
+         Address :&nbsp; &nbsp;  &nbsp;<span id="faddress"></span> <br> <br>
+         Phone No :&nbsp;  &nbsp;<span id="fphone"></span> <br> <br>
+         College :&nbsp; &nbsp;  &nbsp;  &nbsp; <span id="fclg"></span> <br>
+
+         </div>
+        
+    </div>
+</body>
+</html>
